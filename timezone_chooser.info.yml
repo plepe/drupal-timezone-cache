@@ -1,9 +1,0 @@
-name: Timezone Chooser
-description: Creates a block which shows the current user's timezone and let's the user chooser a different timezone.
-package: Custom
-type: module
-version: 1.0
-core: 8.x
-core_version_requirement: ^8 || ^9
-libraries:
-  - timezone_chooser

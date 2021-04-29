@@ -1,4 +1,0 @@
-base:
-  version: 1.x
-  js:
-    js/timezone_chooser.js: {}

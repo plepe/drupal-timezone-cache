@@ -1,0 +1,9 @@
+name: Timezone Cache
+description: Caches content depending on timezone of the user
+package: Custom
+type: module
+version: 1.0
+core: 8.x
+core_version_requirement: ^8 || ^9
+libraries:
+  - timezone_cache
