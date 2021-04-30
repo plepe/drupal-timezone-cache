@@ -36,8 +36,6 @@ class TimezoneCacheFormatter extends FormatterBase {
     $offset->setTimeZone(new \DateTimezone($timezone));
     $offset = $offset->format('O');
 
-    $node = $items->getEntity();
-
     foreach ($items as $delta => $item) {
       list($itemOffset, $content) = explode(':', $item->value, 2);
 
