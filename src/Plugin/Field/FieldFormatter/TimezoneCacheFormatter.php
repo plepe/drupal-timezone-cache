@@ -49,6 +49,12 @@ class TimezoneCacheFormatter extends FormatterBase {
       }
     }
 
+    if (!sizeof($elements) && sizeof($items)) {
+      $elements[0] = [
+        '#children' => $items[0]->value,
+      ];
+    }
+
     return $elements;
   }
 }
